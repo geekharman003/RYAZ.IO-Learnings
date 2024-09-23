@@ -1,0 +1,17 @@
+  table,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:5px;
+        }
+        th,td{
+            padding:5px;
+        }
+        tr:nth-of-type(odd){
+            background-color: #2f373d;
+        }
+        tr:first-child{
+            background-color: #427fef;
+        }
+        tr:last-of-type{
+            background-color: #427fef;
+        }

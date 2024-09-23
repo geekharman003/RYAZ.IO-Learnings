@@ -1,0 +1,78 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 62.5%;
+      }
+      .hero {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(hero_bpohrd/hero_bpohrd_c_scale\,w_320.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* font-size: ; */
+        padding: 5px;
+      }
+      .tagline {
+        font-weight: 300;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 3rem;
+      }
+      h1 {
+        word-spacing: 0.2rem;
+        font-size: 2rem;
+        text-shadow: 3px 3px #222;
+    
+      }
+    
+       @media screen and (min-width: 768px) {
+        .hero {
+          background-image: url(hero_bpohrd/hero_bpohrd_c_scale\,w_918.jpg);
+          font-size: 6rem;
+          background-size: cover;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        .tagline{
+            font-size: 2rem;
+        }
+
+      }
+
+      @media screen and (min-width: 1024px) {
+        .hero {
+          background-image: url(hero_bpohrd/hero_bpohrd_c_scale\,w_1381.jpg);
+          background-size: cover;
+        }
+        h1{
+            font-size: 4rem;
+        }
+        .tagline{
+            font-size: 3rem;
+        }
+      }
+
+      @media screen and (min-width: 1440px) {
+        .hero {
+          background-image: url(hero_bpohrd/hero_bpohrd_c_scale\,w_1440.jpg);
+          background-size: cover;
+        }
+        h1{
+            font-size: 5rem;
+        }
+        .tagline{
+            font-size: 4rem;
+        }
+      }

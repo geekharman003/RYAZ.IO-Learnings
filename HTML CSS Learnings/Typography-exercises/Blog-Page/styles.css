@@ -1,0 +1,66 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      font-size: 62.5%;
+      line-height: 1.5;
+      color: #222;
+    }
+    body{
+        font-family: "Open Sans", system-ui;
+        /* font-weight: 600; */
+        font-size: 1.8rem;
+        line-height: 1.5;
+         /* padding: 2rem; */
+    }
+
+    h1,h2,h3{
+        font-family: "Roboto", sans-serif;
+        margin: 3rem 0;
+        line-height: 1.1;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .serif {
+      margin: 1rem auto;
+      font-family: "Bitter", serif;
+      font-weight: 450;
+      font-style: italic;
+      font-size: 2.5rem;
+    }
+
+    .img-container {
+      width: 100%;
+    }
+    .img-container img {
+      object-fit: cover;
+      width: 100%;
+    }
+    .h1 {
+      font-weight: 900;
+      font-style: normal;
+      font-size: 5.61rem;
+      /* word-wrap: break-word; */
+    }
+    .h2 {
+      font-weight: 900;
+      font-style: normal;
+      font-size: 4.209rem;
+    }
+    .h3{
+         font-weight: 900;
+      font-style: normal;
+   font-size: 3.157rem;;
+    }
+
+    ul{
+        /* list-style-type: none; */
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
